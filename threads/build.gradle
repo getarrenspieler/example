@@ -1,6 +1,3 @@
-//plugins {
-//    id 'java'
-//}
 
 ext {
     junitVersion = '5.8.2'
