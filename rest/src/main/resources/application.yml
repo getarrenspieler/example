@@ -1,0 +1,4 @@
+---
+
+springdoc:
+    packagesToScan: ru.example.demo.rest

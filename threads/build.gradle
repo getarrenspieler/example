@@ -1,0 +1,14 @@
+//plugins {
+//    id 'java'
+//}
+
+ext {
+    junitVersion = '5.8.2'
+    mockitoVersion = '4.4.0'
+}
+
+dependencies {
+    testImplementation "org.mockito:mockito-core:$mockitoVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+}

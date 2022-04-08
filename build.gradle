@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+
+    group = 'ru.example'
+    version = '0.0.1-SNAPSHOT'
+    sourceCompatibility = '11'
+
+    apply plugin: "java"
+
+    repositories {
+        mavenCentral()
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
